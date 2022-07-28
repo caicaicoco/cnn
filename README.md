@@ -32,7 +32,7 @@ git push -u origin master//提交到master分支上
 
 
 
-方法二：先将github仓库clone到本地，再添加并提交
+### 方法二：先将github仓库clone到本地，再添加并提交
 1.新建文件夹，在当前文件夹下运行cmd，clone远程仓库到本地
 
 
