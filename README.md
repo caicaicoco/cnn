@@ -18,7 +18,7 @@ git add .//将当前文件夹下所有文件都添加到本地仓库
 git commit -m "first commit log"//提交并填写提交log  
 
 4.将本地仓库关联到github仓库上  
-git remote add origin git@github com:leiphp/awesome-python3-webapp.git  
+git remote add origin https://github.com/caicaicoco/mysql.git 
 
 5.将本地仓库代码和文件提交到github仓库  
 git push -u origin master//提交到master分支上  
@@ -28,7 +28,7 @@ git push -u origin master//提交到master分支上
 ### 方法二：先将github仓库clone到本地，再添加并提交  
 
 1.新建文件夹，在当前文件夹下运行cmd，clone远程仓库到本地  
-git clone git@github com:leiphp/awesome-python3-webapp.git  
+git clone https://github.com/caicaicoco/mysql.git  
 
 2.将所需要的文件拷贝到文件夹指定目录下，然后依次执行以下命令  
 git add xxx.txt//添加某个文件到本地仓库  
