@@ -21,8 +21,14 @@ git commit -m "first commit log"//提交并填写提交log
 git remote add origin https://github.com/caicaicoco/mysql.git 
 
 5.将本地仓库代码和文件提交到github仓库  
-git push -u origin master//提交到master分支上  
+git push -u origin master//提交到master分支上 
 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/caicaicoco/mysql.git
+git push -u origin main
 
 
 ### 方法二：先将github仓库clone到本地，再添加并提交  
